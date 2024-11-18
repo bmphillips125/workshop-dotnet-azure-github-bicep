@@ -47,8 +47,8 @@ jobs:
     with:
       env: dev
       artifact_name: dotnet-artifact
-      resource_group_name: rg-workshop-dnazghbicep-billyphillips-dev
-      app_service_name: app-workshop-dnazghbicep-billyphillips-dev
+      resource_group_name: rg-workshop-dnazghbicep-bmphillips125-dev
+      app_service_name: app-workshop-dnazghbicep-bmphillips125-dev
       app_service_slot_name: slot
     # Note: use GH Environment Secrets if using a Pro/Enterprise version of GH
     secrets:
@@ -62,8 +62,8 @@ jobs:
     with:
       env: prod
       artifact_name: dotnet-artifact
-      resource_group_name: rg-workshop-dnazghbicep-billyphillips-prod
-      app_service_name: app-workshop-dnazghbicep-billyphillips-prod
+      resource_group_name: rg-workshop-dnazghbicep-bmphillips125-prod
+      app_service_name: app-workshop-dnazghbicep-bmphillips125-prod
       app_service_slot_name: slot
     # Note: use GH Environment Secrets if using a Pro/Enterprise version of GH
     secrets:
